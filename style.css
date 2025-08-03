@@ -76,7 +76,11 @@ nav ul li a.active { background-color: #7b1fa2; font-weight: 700; }
 .hero-section .subtitle {
     font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px auto; line-height: 1.6; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
-.hero-buttons { display: flex; gap: 20px; }
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* This is the new line that centers the buttons */
+}
 .btn {
     display: inline-block; padding: 14px 28px; font-size: 1.1rem; font-weight: 700; text-decoration: none; color: white; background-color: #8e24aa; border: 2px solid white; border-radius: 8px; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
